@@ -1,0 +1,364 @@
+@font-face {
+	font-family: 'Foco';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Foco'),
+		url('../fonts/FOCO.woff2') format('woff2'), 
+		url('../fonts/FOCO.woff') format('woff'),
+		url('../fonts/FOCO.ttf') format('ttf'),
+		url('../fonts/FOCO.eot') format('eot');
+}
+@font-face {
+	font-family:'Foco-bold';
+	font-style: normal;
+	font-weight: bold;
+	src: local('Foco-bold'),
+		url('../fonts/FOCOBOLD.woff2') format('woff2'), 
+		url('../fonts/FOCOBOLD.woff') format('woff'),
+		url('../fonts/FOCOBOLD.ttf') format('ttf'),
+		url('../fonts/FOCOBOLD.eot') format('eot');
+}
+body {
+  background-color: #E5E5E5;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin: 0;
+}
+.header {
+  width: 1440px;
+  margin: auto;
+}
+.container {
+  width:1440px;
+  margin: auto;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: #F3F3F3 1px solid;
+  height: 78px;
+}
+.header__logotype {
+  margin-left: 100px;
+  margin-top: 29.71px;
+}
+.header__enter {
+  font-family: 'Foco-bold',sans-serif;  
+  font-style: normal;
+  margin-top: 27px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  color: #001871;
+  width: 51px;
+  height: 23px;
+  text-decoration: none;
+  margin-right: 100px;
+}
+.page {
+  width: 1440px;
+  margin: auto;
+}
+.hero__row {
+  background-color: #fff;
+  height: 341px;
+  display: flex;
+  justify-content:space-between;
+}
+.hero__row-info {
+  margin-top: 85px;
+  margin-left: 100px;
+  height: 102px;
+}
+.hero__title {
+  font-family: 'Foco-bold',sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 44px;
+  line-height: 55px;
+  color: #0033A0; 
+  letter-spacing: -2px;
+}
+.hero__sub-title{
+  font-family: 'Foco', sans-serif;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 55px;
+  color: #00A3E0;
+  letter-spacing: 2px;
+  word-spacing: 2px; 
+  margin-top: -5px;
+}
+span {
+  color: #00A3E0;
+}
+.hero__row-date {
+  font-family: 'Foco-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 100%;
+  text-align: right;
+  color: #CE0058;
+  height: 88px;
+  margin-right: 100px;
+  margin-top: 90px;
+}
+.blue {
+  background-color: #00A3E0;
+  height: 2043px;
+}
+.blue__left-light {
+  position: absolute;
+  width: 800px;
+  height: 397px;
+  left: 71px;
+  top: 420px;
+  text-align: left;
+}
+.blue__left-light img {
+  width: 85%;
+}
+.blue__right-light{
+  position: absolute;
+  width: 800px;
+  height: 397px;
+  left: 1231px;
+  top: 530px;
+  text-align: left;
+}
+.blue__right-light img {
+  width: 35%;
+}
+.blue__timer {
+  width: 1240px;
+  height: 600px;
+  margin: auto;
+  border-radius: 15px;
+  position: relative;
+  top: -80px;
+  margin-bottom: 40px;
+}
+.blue__notification {
+  margin-left: 1158px;
+  display: inline-block;
+  width: 45px;
+  text-align: center;
+  margin-top: 38.42px;
+}
+.blue__notification img {
+  width: 45px;
+}
+.blue__timer-info-container {
+  display: flex;
+}
+.blue__timer-info {
+  font-family: 'Foco-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  color: #FFFFFF;
+} 
+.blue__title {
+  margin: 0 auto 60px;
+  font-family: 'Foco-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  color: #FFFFFF;
+  width: 385px;
+  height: 55px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.blue__members {
+  margin: 0 auto 100px;
+  display: flex;
+  justify-content: center;
+  width: 1240px;
+}
+.blue__members-item {
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  width: 295px;
+  height: 261px;
+  margin-left: 20px; 
+}
+.blue__members :nth-last-child(4):first-child {
+  margin-left: -20px;
+}
+.person {
+  width: 130px;
+  margin-bottom: -50px;
+  z-index: 1;
+}
+.blue__members-info {
+  text-align: center;
+  margin-top: -125px;
+}
+.blue__members-name {
+  margin-bottom: 8.98px;
+}
+.blue__members-info {
+  line-height: 17px;
+  color: #fff;
+}
+.blue__members-info--blue {
+  color: #0033A0;
+}
+.blue__members-name {
+  font-family: 'Foco-bold', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 17px;
+}
+.blue__members-about {
+  font-family: 'Foco',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  max-width: 231px;
+}
+.blue__information {
+  margin: 0 auto 100px;
+  text-align: left;
+  width: 1240px;
+  height: 648px;
+  font-family: 'Foco',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 36px;
+  color: #FFFFFF;
+  /* word-spacing: 2px; */
+  /*letter-spacing: 1px; */
+}
+.blue__information p {
+  margin-bottom: 40px;
+}
+.blue__button {
+  display: flex;
+  width: 459px;
+  height: 80px;
+  background: #FFFFFF;
+  border-radius: 68px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.default {
+  font-family: 'Foco-bold',sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 121.9%;
+  text-align: center;
+  color: #CE0058;
+}
+.blue__button-container{
+  position: relative;
+}
+.blue__button-left-light {
+  position: absolute;
+  width: 560px;
+  height: 417px;
+  left: 0px;
+  top:  -80px;
+}
+.blue__button-right-light {
+  position: absolute;
+  width: 560px;
+  height: 417px;
+  left: 1144px;
+  top:  -45px;
+}
+.blue__button + p {
+  color: #CE0058;
+  margin-top: 17px;
+  font-family: 'Foco', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 121.9%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.blue__button-icon {
+  width: 45px;
+  margin-right: 10px;
+}
+.about-brand {
+  background-color: #fff;
+  margin-top: 0;
+}
+.about-brand__title {
+  margin: 114px 0px 44px 100px;
+  font-family: 'Foco-bold', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 55px;
+  color: #001871;
+  display: inline-block;
+}
+.about-brand__info {
+  font-family: 'Foco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 154.4%;
+  color: #001871;
+  margin: 0 100px 100px 100px;
+  display: inline-block;
+}
+.about-brand__info a {
+  color: #001871;
+  text-decoration: none;
+}
+footer {
+  background-color: #fff;
+}
+.footer__wrapper {
+  border-top: 1px #E5E5F2 solid;
+  height: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1240px;
+  margin: auto;
+}
+.footer__lookport {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.footer__lookport p { 
+  font-family: 'Foco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 154.4%;
+  color: #000000;
+  margin-left: 44px;
+}
+.footer__tm {
+  font-family: 'Foco', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 154.4%;
+  text-align: right;
+  color: #000000;
+}
